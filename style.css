@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    position: sticky;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(19,106,138,1) 35%, rgba(0,0,0,1) 100%);
+    /* background-image: url('./img/fundo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    
+}
+
+h1{
+    font-family: 'Modak', cursive;
+    font-weight: 10;
+    background-image: linear-gradient(to bottom, rgb(90, 14, 255), rgb(0, 217, 255), rgb(4, 239, 215));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+}
+
+input {
+    font-size: 20px;
+    border: 1px solid rgb(202, 203, 203);
+    outline: none;
+    border-radius: 15px;
+    padding: 5px;
+  
+}
+
+button {
+    font-size: 15px;
+    padding: 10px 35px;
+    border-radius: 15px;
+    border: none;
+    transition: ease-in-out .4s;
+}
+
+button:hover {
+    background: #00bbff;
+}
+
+img {
+    border-radius: 20px;
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+}
+
+.pesquisa {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 70px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    gap: 10px;
+}
+
+li {
+    color: #ccd1e1;
+    width: 300px;
+    height: 28px;
+    list-style: none;
+    text-align: center;
+}
+
+label{
+    color: #ccd1e1;
+}
